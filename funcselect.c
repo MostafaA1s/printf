@@ -17,7 +17,7 @@ int funcSelector(const char *format, va_list args, int charCount)
 			charCount++;
 			break;
 		case 's':
-			charCount = printf_string(args, charCount);
+			charCount = print_string(args, charCount);
 			break;
 		case '%':
 			_putchar('%');

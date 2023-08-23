@@ -7,7 +7,7 @@
  * Return: charCount
  */
 
-int printf_string(va_list args, int charCount)
+int print_string(va_list args, int charCount)
 {
 	char *str = va_arg(args, char *);
 
